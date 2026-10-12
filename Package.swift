@@ -25,7 +25,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/SumSubstance/IdensicMobileSDK-iOS.git", .exact(version)),
+        .package(url: "https://github.com/sumsub/IdensicMobileSDK-iOS.git", .exact(version)),
         .package(url: "https://github.com/twilio/twilio-video-ios", "5.8.2" ..< "6.0.0")
     ],
     targets: [
